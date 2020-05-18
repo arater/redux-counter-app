@@ -4,6 +4,7 @@ import {increment, decrement} from './actions'
 
 class Counter extends React.Component{
     render() {
+        // By connecting mapStateToProps and mapDispatchToProps, their returned values comes to as props
         const {counterValue, onIncrement, onDecrement} = this.props;
         return (
             <div>
